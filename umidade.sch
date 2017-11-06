@@ -1,0 +1,1153 @@
+EESchema Schematic File Version 2
+LIBS:umidade-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:40xx
+LIBS:74LVC1G04GW
+LIBS:74xgxx
+LIBS:93c56
+LIBS:93CXX
+LIBS:4000-ic
+LIBS:5050_ws2811
+LIBS:7400-ic
+LIBS:a4988-module
+LIBS:ac-dc
+LIBS:acs712
+LIBS:actel
+LIBS:adxl345
+LIBS:Altera
+LIBS:amesser-ad
+LIBS:amesser-cmos4000
+LIBS:amesser-conn
+LIBS:amesser-discrete
+LIBS:amesser-linear
+LIBS:amesser-power
+LIBS:amesser-usb
+LIBS:AMS1117
+LIBS:analog_devices
+LIBS:analog-ic
+LIBS:analog_ICs_PL
+LIBS:ant
+LIBS:arduinoshield
+LIBS:at24c64
+LIBS:audio-vlsi
+LIBS:avr-mcu
+LIBS:bat54_c
+LIBS:bav199
+LIBS:bc56-12EWA
+LIBS:BLM15HG6015N1D
+LIBS:bluegiga
+LIBS:brooktre
+LIBS:bss138dp
+LIBS:CIAA_ACC
+LIBS:CIAAK60LIB
+LIBS:cis
+LIBS:cmos_ieee
+LIBS:con-kycon
+LIBS:connector
+LIBS:cp2103
+LIBS:CP2102
+LIBS:dc-dc
+LIBS:DDR3_x16
+LIBS:dht11
+LIBS:diode
+LIBS:diode-inc-ic
+LIBS:displays_PL
+LIBS:edu-ciaa-fsl
+LIBS:edu-ciaa-nxp
+LIBS:EduCiaaXSchLibrary
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:esp8266-module
+LIBS:ESP8266
+LIBS:fe
+LIBS:FMC_HPC
+LIBS:fqt13n06l
+LIBS:freescale-ic
+LIBS:ft232bm
+LIBS:ft232rq
+LIBS:ft2232h
+LIBS:FT2232H
+LIBS:ftdi
+LIBS:ftdi-ic
+LIBS:g5v2
+LIBS:Gajda_opto
+LIBS:gennum
+LIBS:graphic
+LIBS:GS6300
+LIBS:gy-a4988_module
+LIBS:hc11
+LIBS:hc541
+LIBS:hc-05
+LIBS:HC164
+LIBS:hlk-rm04
+LIBS:intel_edison
+LIBS:ir
+LIBS:irf7907
+LIBS:IS42S16400F
+LIBS:isp_6p
+LIBS:kicad-library-by-simlun
+LIBS:KICAD-OPEN-LIBS
+LIBS:l298n
+LIBS:lan_8740
+LIBS:Lattice
+LIBS:led
+LIBS:led_arbg
+LIBS:lm2596
+LIBS:LM2575
+LIBS:logo
+LIBS:logo-azura-wrench
+LIBS:lpc54102j512bd64
+LIBS:LPC4337JBD144
+LIBS:M25P05
+LIBS:max1538
+LIBS:maxim
+LIBS:maxim-ic
+LIBS:mcp1415
+LIBS:mcp1416
+LIBS:mcp1640
+LIBS:mcp1640b
+LIBS:mcp4921
+LIBS:MCP3208
+LIBS:mcu-nxp
+LIBS:mcu-st
+LIBS:mic2039eymt
+LIBS:MIC2025
+LIBS:micrel-ic
+LIBS:microchip1
+LIBS:microchip_dspic33dsc
+LIBS:microchip-ic
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers_PL
+LIBS:microusb
+LIBS:Mimas-cache
+LIBS:Mimas-rescue
+LIBS:miniusb
+LIBS:motor_drivers
+LIBS:mp2109dq
+LIBS:MP2307DN
+LIBS:mppt-cache
+LIBS:msp430
+LIBS:na10-psu
+LIBS:net-phy
+LIBS:noname-cache
+LIBS:nordicsemi
+LIBS:nrf24l01
+LIBS:nsi50010yt1g
+LIBS:numato_kicad_lib
+LIBS:nxp_armmcu
+LIBS:nxp-ic
+LIBS:OF5032
+LIBS:onsemi
+LIBS:on-semi-ic
+LIBS:opamps
+LIBS:opamps_PL
+LIBS:Oscillators
+LIBS:pbss5240xf
+LIBS:PBSS5240
+LIBS:pcie-mini
+LIBS:Pic32MZ
+LIBS:pl2303
+LIBS:PL_capacitors
+LIBS:PL_connectors
+LIBS:PL_diodes
+LIBS:PL_inductors
+LIBS:PL_LEDs
+LIBS:PL_mounting_holes
+LIBS:PL_opto
+LIBS:PL_switchers
+LIBS:PL_switches
+LIBS:PL_transistors
+LIBS:pogopin
+LIBS:Pot
+LIBS:powerint
+LIBS:powerjack
+LIBS:Power_Management
+LIBS:prtr5v0u2x
+LIBS:PRTR5V0U2X
+LIBS:PS2805
+LIBS:pspice
+LIBS:pt4115
+LIBS:references
+LIBS:references_PL
+LIBS:regulator
+LIBS:regulators
+LIBS:regulators_PL
+LIBS:relays
+LIBS:relays_PL
+LIBS:rfcom
+LIBS:RJ45-ENCODER
+LIBS:rohm
+LIBS:rs485_rs232_can
+LIBS:r_small
+LIBS:rtl8196
+LIBS:rx63n_lqfp144
+LIBS:s25fl032p0xmfi013
+LIBS:SCHA5B0200
+LIBS:sd-con
+LIBS:sensors
+LIBS:sharp-relay
+LIBS:shield_arduino
+LIBS:Si50x
+LIBS:silabs
+LIBS:SMD_Sealing_Glass_Crystal
+LIBS:songle_relay
+LIBS:sparkfun
+LIBS:special
+LIBS:spiflash_16m
+LIBS:st1s10
+LIBS:standard
+LIBS:stc12c5a60s2
+LIBS:stepper_drivers
+LIBS:stm8
+LIBS:stm32
+LIBS:STM32F100RBT6B
+LIBS:stmicro-mcu
+LIBS:stpdn
+LIBS:supertex
+LIBS:switches
+LIBS:switch-omron
+LIBS:sw_push
+LIBS:sw_push4
+LIBS:SymbolsSimilarEN60617+oldDIN617
+LIBS:tblocks
+LIBS:tcs3200d
+LIBS:tda5144
+LIBS:texas-msp
+LIBS:ti-ic
+LIBS:TJA1040
+LIBS:tp4056
+LIBS:TPS2051B
+LIBS:transf
+LIBS:transf_unip
+LIBS:Transil_diode
+LIBS:transistor
+LIBS:ts812c
+LIBS:ttl_ieee
+LIBS:tvs
+LIBS:TXB0108
+LIBS:txs0206-29
+LIBS:uln-ic
+LIBS:usb_a
+LIBS:usb-a-pcb
+LIBS:usb_ax2
+LIBS:video
+LIBS:vref_PL
+LIBS:w_analog
+LIBS:w_connectors
+LIBS:w_device
+LIBS:w_logic
+LIBS:Worldsemi
+LIBS:xc3s100etq144
+LIBS:xc3s500evq100
+LIBS:xc6slx9-tqg144
+LIBS:XC7Z030_FBG676
+LIBS:XC9572-TQ100
+LIBS:Xicor
+LIBS:XilinxArtix7
+LIBS:xilinx_spartan3_virtex4_and_5
+LIBS:Zilog
+LIBS:рэс-49
+LIBS:тпг-1
+LIBS:umidade-cache
+EELAYER 25 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATMEGA328-P IC1
+U 1 1 5980DBC0
+P 9950 4450
+F 0 "IC1" H 9200 5700 50  0000 L BNN
+F 1 "ATMEGA328-P" H 10350 3050 50  0000 L BNN
+F 2 "ATMEGA328P-PU:DIP254P762X457-28" H 9950 4450 50  0000 C CIN
+F 3 "" H 9950 4450 50  0000 C CNN
+	1    9950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 5980E3EE
+P 11750 4800
+F 0 "SW2" H 11900 4910 50  0000 C CNN
+F 1 "SW_PUSH" H 11750 4720 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm_h4.3mm" H 11750 4800 50  0001 C CNN
+F 3 "" H 11750 4800 50  0000 C CNN
+	1    11750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5980E555
+P 11500 4600
+F 0 "R7" V 11580 4600 50  0000 C CNN
+F 1 "10K" V 11500 4600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11430 4600 50  0001 C CNN
+F 3 "" H 11500 4600 50  0000 C CNN
+	1    11500 4600
+	0    1    1    0   
+$EndComp
+Connection ~ 11300 4800
+$Comp
+L JACK_2P J1
+U 1 1 5980E6F3
+P 5650 3250
+F 0 "J1" H 5300 3050 50  0000 C CNN
+F 1 "JACK_2P" H 5500 3500 50  0000 C CNN
+F 2 "PL_connectors:BARREL_JACK_21x55" H 5650 3250 50  0001 C CNN
+F 3 "" H 5650 3250 50  0000 C CNN
+	1    5650 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 3350
+Wire Wire Line
+	6100 3100 6250 3100
+$Comp
+L DIODE-RESCUE-umidade D2
+U 1 1 5980E862
+P 6450 3100
+F 0 "D2" H 6450 3200 40  0000 C CNN
+F 1 "DIODE" H 6450 3000 40  0000 C CNN
+F 2 "diode:DO-214AC" H 6450 3100 60  0001 C CNN
+F 3 "" H 6450 3100 60  0000 C CNN
+	1    6450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_POL C2
+U 1 1 5980E901
+P 7100 4300
+F 0 "C2" H 7050 4450 60  0000 C CNN
+F 1 "22μF" H 7100 4150 60  0000 C CNN
+F 2 "Capacitors_SMD:c_elec_5x5.3" H 7100 4300 60  0001 C CNN
+F 3 "" H 7100 4300 60  0001 C CNN
+	1    7100 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3100 6950 3100
+$Comp
+L C_POL C1
+U 1 1 5980EC90
+P 5000 4500
+F 0 "C1" H 4950 4650 60  0000 C CNN
+F 1 "22μF" H 5000 4350 60  0000 C CNN
+F 2 "Capacitors_SMD:c_elec_5x5.3" H 5000 4500 60  0001 C CNN
+F 3 "" H 5000 4500 60  0001 C CNN
+	1    5000 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L LED-RESCUE-umidade D1
+U 1 1 5980EE40
+P 7000 6000
+F 0 "D1" H 7000 6100 50  0000 C CNN
+F 1 "LED" H 7000 5900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7000 6000 50  0001 C CNN
+F 3 "" H 7000 6000 50  0000 C CNN
+	1    7000 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 5980EF3F
+P 7350 6000
+F 0 "R2" V 7430 6000 50  0000 C CNN
+F 1 "470R" V 7350 6000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7280 6000 50  0001 C CNN
+F 3 "" H 7350 6000 50  0000 C CNN
+	1    7350 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L CRYSTAL X1
+U 1 1 5980F24E
+P 11950 4000
+F 0 "X1" H 11950 4150 60  0000 C CNN
+F 1 "16MHz" H 11950 3850 60  0000 C CNN
+F 2 "Crystals:Crystal_HC50-U_Vertical" H 11950 4000 60  0001 C CNN
+F 3 "" H 11950 4000 60  0000 C CNN
+	1    11950 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11300 3950 11300 3700
+Wire Wire Line
+	11300 3700 12300 3700
+Wire Wire Line
+	11300 4050 11300 4300
+Wire Wire Line
+	11300 4300 12300 4300
+Connection ~ 11950 3700
+Connection ~ 11950 4300
+$Comp
+L C C4
+U 1 1 5980F49B
+P 12450 4300
+F 0 "C4" H 12475 4400 50  0000 L CNN
+F 1 "22pF" H 12475 4200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 12488 4150 50  0001 C CNN
+F 3 "" H 12450 4300 50  0000 C CNN
+	1    12450 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L C C3
+U 1 1 5980F535
+P 12450 3700
+F 0 "C3" H 12475 3800 50  0000 L CNN
+F 1 "22pF" H 12475 3600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 12488 3550 50  0001 C CNN
+F 3 "" H 12450 3700 50  0000 C CNN
+	1    12450 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE-RESCUE-umidade D4
+U 1 1 5980FAB9
+P 12400 5900
+F 0 "D4" H 12400 6000 40  0000 C CNN
+F 1 "DIODE" H 12400 5800 40  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 12400 5900 60  0001 C CNN
+F 3 "" H 12400 5900 60  0000 C CNN
+	1    12400 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE-RESCUE-umidade D3
+U 1 1 5980FB95
+P 11900 5900
+F 0 "D3" H 11900 6000 40  0000 C CNN
+F 1 "DIODE" H 11900 5800 40  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 11900 5900 60  0001 C CNN
+F 3 "" H 11900 5900 60  0000 C CNN
+	1    11900 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12050 6200 11900 6200
+Wire Wire Line
+	11900 6100 11900 6350
+Wire Wire Line
+	12250 6200 12400 6200
+Wire Wire Line
+	12400 6100 12400 6350
+Connection ~ 11900 6200
+Connection ~ 12400 6200
+$Comp
+L HEADER_2 J2
+U 1 1 5981054D
+P 12150 6750
+F 0 "J2" H 12150 6900 60  0000 C CNN
+F 1 "SENSOR1" H 12150 6600 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 12150 6750 60  0001 C CNN
+F 3 "" H 12150 6750 60  0000 C CNN
+	1    12150 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 6350 12100 6350
+Wire Wire Line
+	12100 6350 12100 6650
+Wire Wire Line
+	12200 6650 12200 6350
+Wire Wire Line
+	12200 6350 12550 6350
+Wire Wire Line
+	11700 6350 11700 6800
+Connection ~ 11900 6350
+Wire Wire Line
+	12550 6350 12550 6800
+Connection ~ 12400 6350
+$Comp
+L R R6
+U 1 1 5981082D
+P 11700 6950
+F 0 "R6" V 11780 6950 50  0000 C CNN
+F 1 "1.5K" V 11700 6950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11630 6950 50  0001 C CNN
+F 3 "" H 11700 6950 50  0000 C CNN
+	1    11700 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 59810AE1
+P 12550 6950
+F 0 "R8" V 12630 6950 50  0000 C CNN
+F 1 "1.5K" V 12550 6950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12480 6950 50  0001 C CNN
+F 3 "" H 12550 6950 50  0000 C CNN
+	1    12550 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE-RESCUE-umidade D5
+U 1 1 598113DB
+P 13000 6300
+F 0 "D5" H 13000 6400 40  0000 C CNN
+F 1 "DIODE" H 13000 6200 40  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 13000 6300 60  0001 C CNN
+F 3 "" H 13000 6300 60  0000 C CNN
+	1    13000 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE-RESCUE-umidade D6
+U 1 1 5981158E
+P 13300 6300
+F 0 "D6" H 13300 6400 40  0000 C CNN
+F 1 "DIODE" H 13300 6200 40  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 13300 6300 60  0001 C CNN
+F 3 "" H 13300 6300 60  0000 C CNN
+	1    13300 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13000 6550 13000 6500
+Wire Wire Line
+	12800 6550 13100 6550
+Wire Wire Line
+	13200 6550 13500 6550
+Wire Wire Line
+	13300 6550 13300 6500
+$Comp
+L HEADER_2 J3
+U 1 1 5981181A
+P 13150 6850
+F 0 "J3" H 13150 7000 60  0000 C CNN
+F 1 "SENSOR2" H 13150 6700 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 13150 6850 60  0001 C CNN
+F 3 "" H 13150 6850 60  0000 C CNN
+	1    13150 6850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13100 6550 13100 6750
+Connection ~ 13000 6550
+Wire Wire Line
+	13200 6550 13200 6750
+Connection ~ 13300 6550
+$Comp
+L R R11
+U 1 1 59811A74
+P 13500 7000
+F 0 "R11" V 13580 7000 50  0000 C CNN
+F 1 "1.5K" V 13500 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 13430 7000 50  0001 C CNN
+F 3 "" H 13500 7000 50  0000 C CNN
+	1    13500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 59811BD4
+P 12800 7000
+F 0 "R10" V 12880 7000 50  0000 C CNN
+F 1 "1.5K" V 12800 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 12730 7000 50  0001 C CNN
+F 3 "" H 12800 7000 50  0000 C CNN
+	1    12800 7000
+	1    0    0    -1  
+$EndComp
+Connection ~ 12800 6550
+Connection ~ 13500 6550
+$Comp
+L HEADER_3 J4
+U 1 1 5981200B
+P 10400 6450
+F 0 "J4" H 10400 6650 60  0000 C CNN
+F 1 "TEMP" H 10400 6250 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 10400 6450 60  0001 C CNN
+F 3 "" H 10400 6450 60  0000 C CNN
+	1    10400 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 6550 10300 6550
+$Comp
+L R R9
+U 1 1 59812691
+P 9700 6450
+F 0 "R9" V 9780 6450 50  0000 C CNN
+F 1 "4.7K" V 9700 6450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9630 6450 50  0001 C CNN
+F 3 "" H 9700 6450 50  0000 C CNN
+	1    9700 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13500 6050 13500 6850
+$Comp
+L SW_PUSH SW1
+U 1 1 598150FE
+P 5750 6500
+F 0 "SW1" H 5900 6610 50  0000 C CNN
+F 1 "SW_PUSH" H 5750 6420 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm_h4.3mm" H 5750 6500 50  0001 C CNN
+F 3 "" H 5750 6500 50  0000 C CNN
+	1    5750 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 59815749
+P 6350 6750
+F 0 "R1" V 6430 6750 50  0000 C CNN
+F 1 "10K" V 6350 6750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6280 6750 50  0001 C CNN
+F 3 "" H 6350 6750 50  0000 C CNN
+	1    6350 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 59815E94
+P 6100 6950
+F 0 "R3" V 6180 6950 50  0000 C CNN
+F 1 "10K" V 6100 6950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6030 6950 50  0001 C CNN
+F 3 "" H 6100 6950 50  0000 C CNN
+	1    6100 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 59816FA5
+P 9000 7350
+F 0 "R4" V 9080 7350 50  0000 C CNN
+F 1 "10K" V 9000 7350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8930 7350 50  0001 C CNN
+F 3 "" H 9000 7350 50  0000 C CNN
+	1    9000 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5981722C
+P 8450 7250
+F 0 "R5" V 8530 7250 50  0000 C CNN
+F 1 "10K" V 8450 7250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8380 7250 50  0001 C CNN
+F 3 "" H 8450 7250 50  0000 C CNN
+	1    8450 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_DIP_x1 S1
+U 1 1 59817575
+P 9250 7150
+F 0 "S1" H 9250 7050 50  0000 C CNN
+F 1 "SW_DIP_x1" H 9250 7250 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_Micro_SPST" H 9200 7150 50  0001 C CNN
+F 3 "" H 9200 7150 50  0000 C CNN
+	1    9250 7150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6500 6850
+NoConn ~ 6500 7150
+NoConn ~ 6500 7250
+NoConn ~ 6500 7350
+NoConn ~ 8300 7050
+NoConn ~ 8300 6950
+NoConn ~ 7150 7950
+NoConn ~ 7250 7950
+NoConn ~ 7350 7950
+NoConn ~ 7450 7950
+NoConn ~ 7550 7950
+NoConn ~ 7650 7950
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 598383AC
+P 6100 3600
+F 0 "#FLG01" H 6100 3695 50  0001 C CNN
+F 1 "PWR_FLAG" H 6100 3780 50  0000 C CNN
+F 2 "" H 6100 3600 50  0000 C CNN
+F 3 "" H 6100 3600 50  0000 C CNN
+	1    6100 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L AMS1117 U1
+U 1 1 5983786D
+P 6100 4300
+F 0 "U1" H 6100 4200 50  0000 C CNN
+F 1 "AMS1117" H 6100 4400 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 6100 4300 60  0001 C CNN
+F 3 "" H 6100 4300 60  0000 C CNN
+	1    6100 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 4300 5300 4300
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 59838AF9
+P 5000 4250
+F 0 "#FLG02" H 5000 4345 50  0001 C CNN
+F 1 "PWR_FLAG" H 5000 4430 50  0000 C CNN
+F 2 "" H 5000 4250 50  0000 C CNN
+F 3 "" H 5000 4250 50  0000 C CNN
+	1    5000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMS1117 U3
+U 1 1 598CBB53
+P 7800 2400
+F 0 "U3" H 7800 2300 50  0000 C CNN
+F 1 "AMS1117" H 7800 2500 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 7800 2400 60  0001 C CNN
+F 3 "" H 7800 2400 60  0000 C CNN
+	1    7800 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 3250
+$Comp
+L C_POL C5
+U 1 1 598CBE28
+P 6800 2400
+F 0 "C5" H 6750 2550 60  0000 C CNN
+F 1 "22μF" H 6800 2250 60  0000 C CNN
+F 2 "Capacitors_SMD:c_elec_5x5.3" H 6800 2400 60  0001 C CNN
+F 3 "" H 6800 2400 60  0001 C CNN
+	1    6800 2400
+	-1   0    0    1   
+$EndComp
+Connection ~ 6950 3100
+$Comp
+L C_POL C6
+U 1 1 598CC314
+P 8600 2600
+F 0 "C6" H 8550 2750 60  0000 C CNN
+F 1 "22μF" H 8600 2450 60  0000 C CNN
+F 2 "Capacitors_SMD:c_elec_5x5.3" H 8600 2600 60  0001 C CNN
+F 3 "" H 8600 2600 60  0001 C CNN
+	1    8600 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L LCD-016N002L DS1
+U 1 1 598CD60E
+P 11100 2050
+F 0 "DS1" H 10300 2450 50  0000 C CNN
+F 1 "LCD-016N002L" H 11800 2450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x16" H 11100 2000 50  0000 C CIN
+F 3 "" H 11100 2050 50  0000 C CNN
+	1    11100 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 2550 10750 2850
+Wire Wire Line
+	10750 2850 10350 2850
+NoConn ~ 10950 2550
+NoConn ~ 11050 2550
+NoConn ~ 11150 2550
+NoConn ~ 11250 2550
+$Comp
+L POT-RESCUE-umidade RV1
+U 1 1 598CE36C
+P 12400 2650
+F 0 "RV1" H 12400 2570 50  0000 C CNN
+F 1 "90K" H 12400 2650 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_ACP_CA14v_Horizontal_Px15.0mm_Py10.0mm" H 12400 2650 50  0001 C CNN
+F 3 "" H 12400 2650 50  0000 C CNN
+	1    12400 2650
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 10950 4400
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 598CED44
+P 8600 2400
+F 0 "#FLG03" H 8600 2495 50  0001 C CNN
+F 1 "PWR_FLAG" H 8600 2580 50  0000 C CNN
+F 2 "" H 8600 2400 50  0000 C CNN
+F 3 "" H 8600 2400 50  0000 C CNN
+	1    8600 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 10950 3550 2    60   Input ~ 0
+PB2
+Text GLabel 11450 2550 3    60   Input ~ 0
+PD4
+Text GLabel 10950 3650 2    60   Input ~ 0
+PB3
+Text GLabel 10550 2550 3    60   Input ~ 0
+V0
+Text GLabel 12250 2650 0    60   Input ~ 0
+V0
+Text GLabel 11550 2550 3    60   Input ~ 0
+PD3
+Text GLabel 10950 3750 2    60   Input ~ 0
+PB4
+Text GLabel 10850 2550 3    60   Input ~ 0
+PB3
+Text GLabel 13000 6100 1    60   Input ~ 0
+PB0
+Text GLabel 13300 6100 1    60   Input ~ 0
+PB1
+Wire Wire Line
+	12800 6050 12800 6850
+Text GLabel 12800 6050 1    60   Input ~ 0
+ADC3
+Text GLabel 13500 6050 1    60   Input ~ 0
+ADC4
+Wire Wire Line
+	12800 7150 12800 7200
+Wire Wire Line
+	12800 7200 13500 7200
+Wire Wire Line
+	13500 7200 13500 7150
+Text GLabel 13150 7200 3    60   Input ~ 0
+GND
+Text GLabel 6100 3350 2    60   Input ~ 0
+GND
+Text GLabel 10950 5250 2    60   Input ~ 0
+PD3
+Text GLabel 10950 5350 2    60   Input ~ 0
+PD4
+Text GLabel 10950 5550 2    60   Input ~ 0
+PD6
+Wire Wire Line
+	12050 6200 12050 5700
+Wire Wire Line
+	12250 6200 12250 5700
+Text GLabel 12050 5700 1    60   Input ~ 0
+ADC0
+Text GLabel 12250 5700 1    60   Input ~ 0
+ADC1
+Text GLabel 10950 4200 2    60   Input ~ 0
+ADC0
+Text GLabel 10950 4300 2    60   Input ~ 0
+ADC1
+Wire Wire Line
+	12550 7100 12550 7200
+Wire Wire Line
+	12550 7200 11700 7200
+Wire Wire Line
+	11700 7200 11700 7100
+Text GLabel 12150 7200 3    60   Input ~ 0
+GND
+Text GLabel 9550 7150 2    60   Input ~ 0
+GND
+Wire Wire Line
+	12600 4300 12700 4300
+Wire Wire Line
+	12700 4300 12700 3700
+Wire Wire Line
+	12700 3700 12600 3700
+Text GLabel 12700 4000 2    60   Input ~ 0
+GND
+Text GLabel 10300 6350 0    60   Input ~ 0
+GND
+Text GLabel 12050 4800 2    60   Input ~ 0
+GND
+Wire Wire Line
+	10350 2850 10350 2550
+Text GLabel 10550 2850 3    60   Input ~ 0
+GND
+Text GLabel 12400 2800 3    60   Input ~ 0
+GND
+Text GLabel 10950 3350 2    60   Input ~ 0
+PB0
+Text GLabel 10950 3450 2    60   Input ~ 0
+PB1
+Text GLabel 10950 5450 2    60   Input ~ 0
+PD5
+Text GLabel 11850 2550 3    60   Input ~ 0
+GND
+Wire Wire Line
+	5000 4250 5000 4400
+Text GLabel 5000 4300 0    60   Input ~ 0
+3.3V
+Wire Wire Line
+	5850 6750 6200 6750
+Text GLabel 9050 5550 0    60   Input ~ 0
+GND
+Text GLabel 9050 5650 0    60   Input ~ 0
+GND
+Wire Wire Line
+	6050 6500 6150 6500
+Wire Wire Line
+	6150 6100 6150 6750
+Connection ~ 6150 6750
+Text GLabel 5350 6500 0    60   Input ~ 0
+GND
+Text GLabel 5000 4600 3    60   Input ~ 0
+GND
+Wire Wire Line
+	8300 7350 8850 7350
+Text GLabel 9150 7350 2    60   Input ~ 0
+GND
+Text GLabel 8300 7450 2    60   Input ~ 0
+GND
+Text GLabel 6800 6000 0    60   Input ~ 0
+3.3V
+Text GLabel 7500 6000 2    60   Input ~ 0
+GND
+Wire Wire Line
+	8300 7150 8950 7150
+Text GLabel 10950 5150 2    60   Input ~ 0
+PD2
+Text GLabel 11650 2550 3    60   Input ~ 0
+PD2
+Wire Wire Line
+	10300 6450 9850 6450
+Wire Wire Line
+	9500 6550 9500 6450
+Wire Wire Line
+	9500 6450 9550 6450
+Text GLabel 9500 6550 0    60   Input ~ 0
+5V
+Text GLabel 8600 2400 2    60   Input ~ 0
+5V
+Text GLabel 9050 3350 0    60   Input ~ 0
+5V
+Connection ~ 5000 4300
+Wire Wire Line
+	8600 2500 8600 2400
+Connection ~ 8600 2400
+Text GLabel 8600 2700 3    60   Input ~ 0
+GND
+Text GLabel 11650 4600 2    60   Input ~ 0
+5V
+Wire Wire Line
+	10950 4800 11450 4800
+Wire Wire Line
+	11300 4800 11300 4600
+Wire Wire Line
+	11300 4600 11350 4600
+Text GLabel 11750 2550 3    60   Input ~ 0
+5V
+Text GLabel 10450 2550 3    60   Input ~ 0
+5V
+Text GLabel 12400 2500 1    60   Input ~ 0
+5V
+Wire Wire Line
+	10950 3950 11300 3950
+Wire Wire Line
+	11300 4050 10950 4050
+Wire Wire Line
+	6250 6950 6500 6950
+Text GLabel 7800 2900 3    60   Input ~ 0
+GND
+Text GLabel 6700 2400 0    60   Input ~ 0
+GND
+Text GLabel 7200 4300 2    60   Input ~ 0
+GND
+Connection ~ 6100 3600
+Wire Wire Line
+	6100 3250 6100 3800
+Wire Wire Line
+	6950 2400 6950 4300
+Wire Wire Line
+	6900 4300 7000 4300
+Connection ~ 6950 2400
+Connection ~ 6950 4300
+Wire Wire Line
+	6900 2400 7000 2400
+$Comp
+L HEADER_2 J5
+U 1 1 59AEEB19
+P 8400 3700
+F 0 "J5" H 8400 3850 60  0000 C CNN
+F 1 "AVCC/AREF" H 8400 3550 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 8400 3700 60  0001 C CNN
+F 3 "" H 8400 3700 60  0000 C CNN
+	1    8400 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 3650 9050 3650
+Wire Wire Line
+	9050 3750 9050 3950
+Wire Wire Line
+	8500 3750 9050 3750
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 59AEF716
+P 8800 3650
+F 0 "#FLG04" H 8800 3745 50  0001 C CNN
+F 1 "PWR_FLAG" H 8800 3830 50  0000 C CNN
+F 2 "" H 8800 3650 50  0000 C CNN
+F 3 "" H 8800 3650 50  0000 C CNN
+	1    8800 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8800 3650
+Text GLabel 10650 2550 3    60   Input ~ 0
+PB4
+Text GLabel 11350 2550 3    60   Input ~ 0
+PD5
+Text GLabel 11900 5700 1    60   Input ~ 0
+PD6
+Text GLabel 12400 5700 1    60   Input ~ 0
+PD7
+Text GLabel 10950 5650 2    60   Input ~ 0
+PD7
+Text GLabel 10950 4500 2    60   Input ~ 0
+ADC3
+Text GLabel 10950 4600 2    60   Input ~ 0
+ADC4
+NoConn ~ 10950 4700
+Text GLabel 9900 6150 1    60   Input ~ 0
+PB2
+Wire Wire Line
+	9900 6150 9900 6450
+Connection ~ 9900 6450
+NoConn ~ 10950 3850
+$Comp
+L ESP-12E U2
+U 1 1 59813098
+P 7400 7050
+F 0 "U2" H 7400 6950 50  0000 C CNN
+F 1 "ESP-12E" H 7400 7150 50  0000 C CNN
+F 2 "ESP8266:ESP-12E" H 7400 7050 50  0001 C CNN
+F 3 "" H 7400 7050 50  0001 C CNN
+	1    7400 7050
+	1    0    0    -1  
+$EndComp
+Text GLabel 10950 4950 2    60   Input ~ 0
+ESP_GPIO16
+Text GLabel 5550 7050 0    60   Input ~ 0
+ESP_GPIO16
+Wire Wire Line
+	6500 7050 5550 7050
+Text GLabel 8300 6750 2    60   Input ~ 0
+ESP_TXD
+Text GLabel 8300 6850 2    60   Input ~ 0
+ESP_RXD
+NoConn ~ 10950 5050
+NoConn ~ 9850 5700
+$Comp
+L CONN_01X06 P1
+U 1 1 5A0102A3
+P 4650 5550
+F 0 "P1" H 4650 5900 50  0000 C CNN
+F 1 "CONN_01X06" V 4750 5550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 4650 5550 50  0001 C CNN
+F 3 "" H 4650 5550 50  0000 C CNN
+	1    4650 5550
+	-1   0    0    1   
+$EndComp
+Text GLabel 4850 5400 2    60   Input ~ 0
+ESP_TXD
+Text GLabel 4850 5500 2    60   Input ~ 0
+ESP_RXD
+Text Notes 4300 5850 0    60   ~ 0
+DTR\nRX\nTX\nVCC\nCTS\nGND
+Text GLabel 4850 5600 2    60   Input ~ 0
+VCC_FTDI
+Text GLabel 4850 5800 2    60   Input ~ 0
+GND
+NoConn ~ 4850 5300
+NoConn ~ 4850 5700
+Text GLabel 4800 7350 0    60   Input ~ 0
+VCC_FTDI
+Text GLabel 4800 7550 0    60   Input ~ 0
+3.3V
+$Comp
+L SPDT SW3
+U 1 1 5A010CEB
+P 5450 7450
+F 0 "SW3" H 5670 7550 40  0000 C CNN
+F 1 "SPDT" H 5730 7380 40  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_Micro_SPST" H 5830 7450 60  0001 C CNN
+F 3 "" H 5830 7450 60  0000 C CNN
+	1    5450 7450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6500 7450 5450 7450
+Wire Wire Line
+	8600 7250 8650 7250
+Wire Wire Line
+	8650 7250 8650 8150
+Wire Wire Line
+	8650 8150 6100 8150
+Wire Wire Line
+	6100 8150 6100 7450
+Connection ~ 6100 7450
+Wire Wire Line
+	5850 6750 5850 7450
+Wire Wire Line
+	5850 6950 5950 6950
+Connection ~ 5850 7450
+Connection ~ 5850 6950
+Wire Wire Line
+	5350 6500 5450 6500
+Wire Wire Line
+	5400 6500 5400 6100
+Wire Wire Line
+	5400 6100 5600 6100
+Connection ~ 5400 6500
+$Comp
+L C C7
+U 1 1 5A01184E
+P 5750 6100
+F 0 "C7" H 5775 6200 50  0000 L CNN
+F 1 "100nF" H 5775 6000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5788 5950 50  0001 C CNN
+F 3 "" H 5750 6100 50  0000 C CNN
+	1    5750 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 6100 6150 6100
+Connection ~ 6150 6500
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 5A01340D
+P 6300 7450
+F 0 "#FLG05" H 6300 7545 50  0001 C CNN
+F 1 "PWR_FLAG" H 6300 7630 50  0000 C CNN
+F 2 "" H 6300 7450 50  0000 C CNN
+F 3 "" H 6300 7450 50  0000 C CNN
+	1    6300 7450
+	-1   0    0    1   
+$EndComp
+Connection ~ 6300 7450
+$EndSCHEMATC
