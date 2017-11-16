@@ -596,25 +596,25 @@ Connection ~ 13500 6550
 $Comp
 L HEADER_3 J4
 U 1 1 5981200B
-P 10400 6450
-F 0 "J4" H 10400 6650 60  0000 C CNN
-F 1 "TEMP" H 10400 6250 60  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 10400 6450 60  0001 C CNN
-F 3 "" H 10400 6450 60  0000 C CNN
-	1    10400 6450
+P 12700 8400
+F 0 "J4" H 12700 8600 60  0000 C CNN
+F 1 "TEMP" H 12700 8200 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 12700 8400 60  0001 C CNN
+F 3 "" H 12700 8400 60  0000 C CNN
+	1    12700 8400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 6550 10300 6550
+	11800 8500 12600 8500
 $Comp
 L R R9
 U 1 1 59812691
-P 9700 6450
-F 0 "R9" V 9780 6450 50  0000 C CNN
-F 1 "4.7K" V 9700 6450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9630 6450 50  0001 C CNN
-F 3 "" H 9700 6450 50  0000 C CNN
-	1    9700 6450
+P 12000 8400
+F 0 "R9" V 12080 8400 50  0000 C CNN
+F 1 "4.7K" V 12000 8400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 11930 8400 50  0001 C CNN
+F 3 "" H 12000 8400 50  0000 C CNN
+	1    12000 8400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -881,7 +881,7 @@ Wire Wire Line
 	12700 3700 12600 3700
 Text GLabel 12700 4000 2    60   Input ~ 0
 GND
-Text GLabel 10300 6350 0    60   Input ~ 0
+Text GLabel 12600 8300 0    60   Input ~ 0
 GND
 Text GLabel 12050 4800 2    60   Input ~ 0
 GND
@@ -935,12 +935,12 @@ PD2
 Text GLabel 11650 2550 3    60   Input ~ 0
 PD2
 Wire Wire Line
-	10300 6450 9850 6450
+	12600 8400 12150 8400
 Wire Wire Line
-	9500 6550 9500 6450
+	11800 8500 11800 8400
 Wire Wire Line
-	9500 6450 9550 6450
-Text GLabel 9500 6550 0    60   Input ~ 0
+	11800 8400 11850 8400
+Text GLabel 11800 8500 0    60   Input ~ 0
 5V
 Text GLabel 8600 2400 2    60   Input ~ 0
 5V
@@ -1033,11 +1033,11 @@ ADC3
 Text GLabel 10950 4600 2    60   Input ~ 0
 ADC4
 NoConn ~ 10950 4700
-Text GLabel 9900 6150 1    60   Input ~ 0
+Text GLabel 12200 8100 1    60   Input ~ 0
 PB2
 Wire Wire Line
-	9900 6150 9900 6450
-Connection ~ 9900 6450
+	12200 8100 12200 8400
+Connection ~ 12200 8400
 NoConn ~ 10950 3850
 $Comp
 L ESP-12E U2
@@ -1150,4 +1150,18 @@ F 3 "" H 6300 7450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 6300 7450
+Text Notes 12750 5500 0    60   ~ 0
+Sensores de umidade
+Text Notes 11500 3500 0    60   ~ 0
+ATMEGA
+Text Notes 10950 1500 0    60   ~ 0
+LCD
+Text Notes 4550 2700 0    60   ~ 0
+Potência e Reguladores de Tensão
+Text Notes 3250 5550 0    60   ~ 0
+Header para o FTDI
+Text Notes 12550 8000 0    60   ~ 0
+Sensor de Temperatura
+Text Notes 7000 8400 0    60   ~ 0
+Módulo ESP
 $EndSCHEMATC
