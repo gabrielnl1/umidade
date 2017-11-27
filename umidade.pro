@@ -1,4 +1,4 @@
-update=09/10/17 06:28:07
+update=Sex 24 Nov 2017 13:26:19 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -310,3 +308,5 @@ LibName278=xilinx_spartan3_virtex4_and_5
 LibName279=Zilog
 LibName280=рэс-49
 LibName281=тпг-1
+[general]
+version=1
